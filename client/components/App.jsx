@@ -2,6 +2,7 @@ import React from 'react'
 
 import Fox from './Fox'
 import Cat from './Cat'
+import Quotes from './Quotes'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="container">
         <Fox />
         <Cat />
+        <Quotes />
       </div>
     </>
   )

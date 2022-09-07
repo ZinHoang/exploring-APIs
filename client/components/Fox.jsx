@@ -18,7 +18,7 @@ function Fox() {
   return (
     <>
       <div className="flex-child ">
-        <h1>I swear, I am not swearing</h1>
+        <h2>I swear, I am not swearing</h2>
         <button onClick={clickHandler}>FOX SAKE</button>
         <div>
           {foxObj && (
