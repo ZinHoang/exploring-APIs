@@ -1,9 +1,11 @@
+
 #content {
   white-space: pre-line;
 }
 
 .title {
   text-align: center;
+  font-size: 45px;
 }
 
 .container {
@@ -17,11 +19,13 @@
   flex: 1; /* makes columns equal */
   font-family: 'Noto Serif', serif;
   padding: 1em;
+  width: fit-content
 }
 
-.nasa-photo {
-  width: 500px;
+.resize {
+  object-fit: contain;
 }
+
 
 .quote {
   color: palevioletred;

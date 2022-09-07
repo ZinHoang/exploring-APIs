@@ -19,6 +19,8 @@ function Cat() {
       <div className="flex-child ">
         <h2>Cat is Pawsome</h2>
         <button onClick={clickHandler}>MOEW MOEW</button>
+        <br />
+        <br />
         {catObj && <img src={`${catObj?.url}`} alt="Cat Pic" />}
       </div>
     </>

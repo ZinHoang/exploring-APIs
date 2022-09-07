@@ -1,15 +1,15 @@
 import React from 'react'
 
-import Fox from './Fox'
+import Pokemon from './Pokemon'
 import Cat from './Cat'
 import Quotes from './Quotes'
 
 function App() {
   return (
     <>
-      <h1 className="title">Exploring APIs!</h1>
+      <div className="title">Exploring APIs!</div>
       <div className="container">
-        <Fox />
+        <Pokemon />
         <Cat />
         <Quotes />
       </div>
