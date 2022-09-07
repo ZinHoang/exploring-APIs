@@ -1,6 +1,6 @@
 import request from 'superagent'
 
-export async function getRanDomFox() {
+export async function getRandomFox() {
   try {
     const resp = await request.get('https://randomfox.ca/floof/')
     return resp.body
