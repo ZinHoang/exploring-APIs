@@ -16,15 +16,17 @@ function Cat() {
 
   return (
     <>
-      <div className="flex-child ">
+      <div className="flex-child cat">
         <h2>Cat is Pawsome</h2>
-        <button onClick={clickHandler}>MOEW MOEW</button>
+        <button onClick={clickHandler} className="cat">
+          MEOW MEOW
+        </button>
         <br />
         <br />
         {catObj && <img src={`${catObj?.url}`} alt="Cat Pic" />}
       </div>
     </>
-  )
+  ) 
 }
 
 export default Cat

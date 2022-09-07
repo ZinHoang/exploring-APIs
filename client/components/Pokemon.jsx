@@ -17,19 +17,20 @@ function Pokemon() {
 
   return (
     <>
-      <div className="flex-child ">
-        <h2>Pika Pika</h2>
-        <button onClick={clickHandler}>POKEMON</button>
+      <div className="flex-child pokemon">
+        <h2>Pika Pika Pikachu</h2>
+        <button onClick={clickHandler} className="pokemon">
+          POKEMON
+        </button>
         <br />
         <br />
-        <div className="resize">
-          {pokemonObj && (
-            <img
-              src={`${pokemonObj?.sprites.front_default}`}
-              alt="Picture of a fox"
-            />
-          )}
-        </div>
+        {pokemonObj && (
+          <img
+            className="img-pokemon"
+            src={`${pokemonObj?.sprites.front_default}`}
+            alt="Picture of a Pokemon"
+          />
+        )}
       </div>
     </>
   )

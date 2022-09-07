@@ -7,7 +7,7 @@ import Quotes from './Quotes'
 function App() {
   return (
     <>
-      <div className="title">Exploring APIs!</div>
+      <div className="title">Exploring APIs !!!</div>
       <div className="container">
         <Pokemon />
         <Cat />

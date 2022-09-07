@@ -16,9 +16,11 @@ function Quotes() {
 
   return (
     <>
-      <div className="flex-child ">
+      <div className="flex-child quote ">
         <h2>A day without sunshine is like, you know, night ◠‿◠</h2>
-        <button onClick={clickHandler}>GET QUOTE</button>
+        <button onClick={clickHandler} className="quote">
+          GET QUOTE
+        </button>
         <h3 className="quote">{quotesObj?.affirmation}</h3>
       </div>
     </>
