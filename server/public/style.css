@@ -1,0 +1,28 @@
+#content {
+  white-space: pre-line;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.flex-child {
+  flex-direction: column;
+  flex: 1; /* makes columns equal */
+  font-family: 'Noto Serif', serif;
+  padding: 1em;
+}
+
+.nasa-photo {
+  width: 500px;
+}
+
+.quote {
+  color: palevioletred;
+}
