@@ -13,7 +13,7 @@ Existing APIs and components serve as examples for you. Feel free to remove or r
     <summary>Tip</summary>
 
     ```sh
-    cd consuming-external-apis
+    cd exploring-APIs
     npm i
     npm run dev
     ```
